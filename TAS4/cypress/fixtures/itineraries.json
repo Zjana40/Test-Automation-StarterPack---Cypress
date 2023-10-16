@@ -1,0 +1,911 @@
+{
+    "data": {
+        "returnItineraries": {
+            "__typename": "Itineraries",
+            "server": {
+                "requestId": "1e141ad38e364252914521c0ee79004c",
+                "environment": "PROD",
+                "packageVersion": "git-b85a3025f97a59409afc1d8faa7b92022d1a4108",
+                "serverToken": "eyJ0b2tlbiI6ICJmWE54YUl6TkRydnpSb1U1VFM1ZnpESk04R3hjV2lzeElobmNpLVFZaUhKQVhpRHpDVXJFbGphNHZoM3FxWHlYbkMwVFlxQ2JoUVFnd1hOQWJfQkROWExYcmt0NVpseHVvcTlIYzc1bUZHQTNYSDhrb3Z3bkpSaUhXS2xabTJRc1lodzFYaWZHel9mOGo2VS01QVN6Q0RtbGNSN0Y4QTBCVFdIRVdBTjNBYmRCdG5nSHpFelcxR2VUVFNETlk5cXFlSjdLb0tMakZNeERFZXJRcGdnUWVDNWpoajFCUEhDVHJJYjZvcllKSWlKYmJROHY2d05paEVhMWh5YlBIWTlUcnZ6YXMxNG1jam9pNGdtbDZJNldkNmtzMGFUU2RUakRuNGwtcVo1OHg5dFZOV2dFS2d5bnRBdkYxbF8tdmxGSjVQRlV3RmRBYUhZSXdfZ0JpNVdtQUlkejdvNmN6aXlGb09wUXVCREk0Tzh1WkhyUUZkZHhVZW03SmUtalk3bXhJNnBuMFQyU3BNeXF1U1JoM0NJSm4zcm5oMEx3Q3U0ZmRtbVJQVWZMUnhnbXJtakdjVE9YbzVvY0RWdmgtaUdiVV94el9iekZ1MVhaaXlnZnBsdXRCNTZtM1l6R010ekhpYlF4U3NFYld0MD0iLCAidGltZXMiOiB7IjEiOiAxNjk2OTYwMzE5LjU3OSwgIlRUIjogMTY5Njk2MDMxOS4xNDZ9fQ=="
+            },
+            "metadata": {
+                "eligibilityInformation": {
+                    "baggageEligibilityInformation": {
+                        "topFiveResultsBaggageEligibleForPrompt": null,
+                        "topFifteenResultsBaggageEligibleForPrompt": null,
+                        "searchIsLongTrip": null,
+                        "searchIsFamilyTrip": null,
+                        "numberOfBags": null
+                    }
+                },
+                "carriers": [
+                    {
+                        "id": "Carrier:402",
+                        "code": "KU",
+                        "name": "Kuwait Airways"
+                    },
+                    {
+                        "id": "Carrier:296",
+                        "code": "EY",
+                        "name": "Etihad Airways"
+                    },
+                    {
+                        "id": "Carrier:307",
+                        "code": "AY",
+                        "name": "Finnair"
+                    },
+                    {
+                        "id": "Carrier:262",
+                        "code": "CM",
+                        "name": "Copa Airlines"
+                    },
+                    {
+                        "id": "Carrier:332",
+                        "code": "TA",
+                        "name": "Avianca El Salvador"
+                    },
+                    {
+                        "id": "Carrier:522",
+                        "code": "UL",
+                        "name": "SriLankan Airlines"
+                    },
+                    {
+                        "id": "Carrier:581",
+                        "code": "TK",
+                        "name": "Turkish Airlines"
+                    },
+                    {
+                        "id": "Carrier:899",
+                        "code": "VB",
+                        "name": "VivaAerobus"
+                    },
+                    {
+                        "id": "Carrier:152",
+                        "code": "Q6",
+                        "name": "Volaris Costa Rica"
+                    },
+                    {
+                        "id": "Carrier:60",
+                        "code": "UX",
+                        "name": "Air Europa"
+                    },
+                    {
+                        "id": "Carrier:2687",
+                        "code": "N3",
+                        "name": "Volaris El Salvador"
+                    },
+                    {
+                        "id": "Carrier:519",
+                        "code": "SK",
+                        "name": "SAS"
+                    },
+                    {
+                        "id": "Carrier:339",
+                        "code": "HA",
+                        "name": "Hawaiian Airlines"
+                    },
+                    {
+                        "id": "Carrier:502",
+                        "code": "QR",
+                        "name": "Qatar Airways"
+                    },
+                    {
+                        "id": "Carrier:528",
+                        "code": "SQ",
+                        "name": "Singapore Airlines"
+                    },
+                    {
+                        "id": "Carrier:289",
+                        "code": "LY",
+                        "name": "El Al Israel Airlines"
+                    },
+                    {
+                        "id": "Carrier:295",
+                        "code": "ET",
+                        "name": "Ethiopian Airlines"
+                    },
+                    {
+                        "id": "Carrier:802",
+                        "code": "HC",
+                        "name": "Air Senegal"
+                    },
+                    {
+                        "id": "Carrier:554",
+                        "code": "NK",
+                        "name": "Spirit Airlines"
+                    },
+                    {
+                        "id": "Carrier:496",
+                        "code": "PD",
+                        "name": "Porter Airlines"
+                    },
+                    {
+                        "id": "Carrier:512",
+                        "code": "RJ",
+                        "name": "Royal Jordanian"
+                    },
+                    {
+                        "id": "Carrier:133",
+                        "code": "TX",
+                        "name": "Air Caraïbes"
+                    },
+                    {
+                        "id": "Carrier:2409",
+                        "code": "4Y",
+                        "name": "Eurowings Discover"
+                    },
+                    {
+                        "id": "Carrier:631",
+                        "code": "WS",
+                        "name": "WestJet"
+                    },
+                    {
+                        "id": "Carrier:866",
+                        "code": "OG",
+                        "name": "Play"
+                    },
+                    {
+                        "id": "Carrier:601",
+                        "code": "UA",
+                        "name": "United Airlines"
+                    },
+                    {
+                        "id": "Carrier:426",
+                        "code": "OM",
+                        "name": "MIAT Mongolian Airlines"
+                    },
+                    {
+                        "id": "Carrier:291",
+                        "code": "EK",
+                        "name": "Emirates"
+                    },
+                    {
+                        "id": "Carrier:82",
+                        "code": "AI",
+                        "name": "Air India Limited"
+                    },
+                    {
+                        "id": "Carrier:232",
+                        "code": "BW",
+                        "name": "Caribbean Airlines"
+                    },
+                    {
+                        "id": "Carrier:1151",
+                        "code": "PB",
+                        "name": "PAL Airlines"
+                    },
+                    {
+                        "id": "Carrier:274",
+                        "code": "DL",
+                        "name": "Delta Air Lines"
+                    },
+                    {
+                        "id": "Carrier:1006",
+                        "code": "9X",
+                        "name": "Southern Airways Express"
+                    },
+                    {
+                        "id": "Carrier:501",
+                        "code": "QF",
+                        "name": "Qantas"
+                    },
+                    {
+                        "id": "Carrier:223",
+                        "code": "SN",
+                        "name": "Brussels Airlines"
+                    },
+                    {
+                        "id": "Carrier:773",
+                        "code": "JY",
+                        "name": "interCaribbean Airways"
+                    },
+                    {
+                        "id": "Carrier:231",
+                        "code": "9K",
+                        "name": "Cape Air"
+                    },
+                    {
+                        "id": "Carrier:10",
+                        "code": "EI",
+                        "name": "Aer Lingus"
+                    },
+                    {
+                        "id": "Carrier:391",
+                        "code": "KL",
+                        "name": "KLM Royal Dutch Airlines"
+                    },
+                    {
+                        "id": "Carrier:127",
+                        "code": "AV",
+                        "name": "Avianca"
+                    },
+                    {
+                        "id": "Carrier:636",
+                        "code": "WO",
+                        "name": "Swoop"
+                    },
+                    {
+                        "id": "Carrier:751",
+                        "code": "F8",
+                        "name": "Flair Airlines"
+                    },
+                    {
+                        "id": "Carrier:28",
+                        "code": "DE",
+                        "name": "Condor"
+                    },
+                    {
+                        "id": "Carrier:397",
+                        "code": "Y9",
+                        "name": "Lynx Air"
+                    },
+                    {
+                        "id": "Carrier:489",
+                        "code": "PK",
+                        "name": "Pakistan International Airlines"
+                    },
+                    {
+                        "id": "Carrier:618",
+                        "code": "VS",
+                        "name": "Virgin Atlantic Airways"
+                    },
+                    {
+                        "id": "Carrier:1132",
+                        "code": "5U",
+                        "name": "Transportes Aéreos Guatemaltecos"
+                    },
+                    {
+                        "id": "Carrier:106",
+                        "code": "NZ",
+                        "name": "Air New Zealand"
+                    },
+                    {
+                        "id": "Carrier:241",
+                        "code": "MU",
+                        "name": "China Eastern Airlines"
+                    },
+                    {
+                        "id": "Carrier:352",
+                        "code": "IB",
+                        "name": "Iberia Airlines"
+                    },
+                    {
+                        "id": "Carrier:99",
+                        "code": "NH",
+                        "name": "All Nippon Airways"
+                    },
+                    {
+                        "id": "Carrier:419",
+                        "code": "LH",
+                        "name": "Lufthansa"
+                    },
+                    {
+                        "id": "Carrier:523",
+                        "code": "SY",
+                        "name": "Sun Country Airlines"
+                    },
+                    {
+                        "id": "Carrier:102",
+                        "code": "AC",
+                        "name": "Air Canada"
+                    },
+                    {
+                        "id": "Carrier:202",
+                        "code": "TS",
+                        "name": "Air Transat"
+                    },
+                    {
+                        "id": "Carrier:538",
+                        "code": "SV",
+                        "name": "Saudi Arabian Airlines"
+                    },
+                    {
+                        "id": "Carrier:375",
+                        "code": "JL",
+                        "name": "Japan Airlines"
+                    },
+                    {
+                        "id": "Carrier:194",
+                        "code": "BF",
+                        "name": "French Bee"
+                    },
+                    {
+                        "id": "Carrier:121",
+                        "code": "OS",
+                        "name": "Austrian Airlines"
+                    },
+                    {
+                        "id": "Carrier:113",
+                        "code": "AS",
+                        "name": "Alaska Airlines"
+                    },
+                    {
+                        "id": "Carrier:70",
+                        "code": "AF",
+                        "name": "Air France"
+                    },
+                    {
+                        "id": "Carrier:288",
+                        "code": "MS",
+                        "name": "Egyptair"
+                    },
+                    {
+                        "id": "Carrier:126",
+                        "code": "AU",
+                        "name": "AU"
+                    },
+                    {
+                        "id": "Carrier:613",
+                        "code": "Y4",
+                        "name": "Volaris"
+                    },
+                    {
+                        "id": "Carrier:355",
+                        "code": "FI",
+                        "name": "Icelandair"
+                    },
+                    {
+                        "id": "Carrier:277",
+                        "code": "DO",
+                        "name": "Sky High Aviation Services"
+                    },
+                    {
+                        "id": "Carrier:527",
+                        "code": "SP",
+                        "name": "SATA Air Acores"
+                    },
+                    {
+                        "id": "Carrier:98",
+                        "code": "AM",
+                        "name": "AeroMéxico"
+                    },
+                    {
+                        "id": "Carrier:50",
+                        "code": "AA",
+                        "name": "American Airlines"
+                    },
+                    {
+                        "id": "Carrier:236",
+                        "code": "KX",
+                        "name": "Cayman Airways"
+                    },
+                    {
+                        "id": "Carrier:444",
+                        "code": "MX",
+                        "name": "BREEZE"
+                    },
+                    {
+                        "id": "Carrier:606",
+                        "code": "HY",
+                        "name": "Uzbekistan Airways"
+                    },
+                    {
+                        "id": "Carrier:333",
+                        "code": "GF",
+                        "name": "Gulf Air Bahrain"
+                    },
+                    {
+                        "id": "Carrier:405",
+                        "code": "LA",
+                        "name": "LATAM Airlines"
+                    },
+                    {
+                        "id": "Carrier:138",
+                        "code": "AZ",
+                        "name": "ITA Airways"
+                    },
+                    {
+                        "id": "Carrier:516",
+                        "code": "S4",
+                        "name": "SATA Azores Airlines"
+                    },
+                    {
+                        "id": "Carrier:385",
+                        "code": "B6",
+                        "name": "JetBlue Airways"
+                    },
+                    {
+                        "id": "Carrier:235",
+                        "code": "CX",
+                        "name": "Cathay Pacific"
+                    },
+                    {
+                        "id": "Carrier:572",
+                        "code": "TP",
+                        "name": "TAP Portugal"
+                    },
+                    {
+                        "id": "Carrier:242",
+                        "code": "CZ",
+                        "name": "China Southern Airlines"
+                    },
+                    {
+                        "id": "Carrier:1105",
+                        "code": "3M",
+                        "name": "Silver Airways"
+                    },
+                    {
+                        "id": "Carrier:409",
+                        "code": "LO",
+                        "name": "LOT Polish Airlines"
+                    },
+                    {
+                        "id": "Carrier:22",
+                        "code": "BT",
+                        "name": "airBaltic"
+                    },
+                    {
+                        "id": "Carrier:806",
+                        "code": "N0",
+                        "name": "Norse Atlantic Airways"
+                    },
+                    {
+                        "id": "Carrier:209",
+                        "code": "UP",
+                        "name": "Bahamasair"
+                    },
+                    {
+                        "id": "Carrier:54",
+                        "code": "G4",
+                        "name": "Allegiant Air"
+                    },
+                    {
+                        "id": "Carrier:320",
+                        "code": "F9",
+                        "name": "Frontier Airlines"
+                    },
+                    {
+                        "id": "Carrier:378",
+                        "code": "JU",
+                        "name": "Air Serbia"
+                    },
+                    {
+                        "id": "Carrier:510",
+                        "code": "AT",
+                        "name": "Royal Air Maroc"
+                    },
+                    {
+                        "id": "Carrier:39",
+                        "code": "A3",
+                        "name": "Aegean"
+                    },
+                    {
+                        "id": "Carrier:473",
+                        "code": "WY",
+                        "name": "Oman Air"
+                    },
+                    {
+                        "id": "Carrier:112",
+                        "code": "AR",
+                        "name": "Aerolineas Argentinas"
+                    },
+                    {
+                        "id": "Carrier:395",
+                        "code": "KQ",
+                        "name": "Kenya Airways"
+                    },
+                    {
+                        "id": "Carrier:207",
+                        "code": "BA",
+                        "name": "British Airways"
+                    },
+                    {
+                        "id": "Carrier:541",
+                        "code": "LX",
+                        "name": "Swiss International Air Lines"
+                    },
+                    {
+                        "id": "Carrier:445",
+                        "code": "ME",
+                        "name": "Middle East Airlines"
+                    },
+                    {
+                        "id": "Carrier:597",
+                        "code": "RO",
+                        "name": "Tarom"
+                    },
+                    {
+                        "id": "Carrier:240",
+                        "code": "CI",
+                        "name": "China Airlines"
+                    }
+                ],
+                "stopoverCountries": [],
+                "inboundDays": [
+                    "THURSDAY"
+                ],
+                "outboundDays": [
+                    "TUESDAY"
+                ],
+                "travelTips": [],
+                "topResults": {
+                    "best": {
+                        "__typename": "ItineraryReturn",
+                        "duration": 7620,
+                        "price": {
+                            "amount": "10650000"
+                        },
+                        "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ=="
+                    },
+                    "cheapest": {
+                        "__typename": "ItineraryReturn",
+                        "duration": 7620,
+                        "price": {
+                            "amount": "1076"
+                        },
+                        "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ=="
+                    },
+                    "fastest": {
+                        "__typename": "ItineraryReturn",
+                        "duration": 7620,
+                        "price": {
+                            "amount": "1076"
+                        },
+                        "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ=="
+                    },
+                    "sourceTakeoffAsc": {
+                        "__typename": "ItineraryReturn",
+                        "duration": 7620,
+                        "price": {
+                            "amount": "1076"
+                        },
+                        "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ=="
+                    },
+                    "destinationLandingAsc": {
+                        "__typename": "ItineraryReturn",
+                        "duration": 7620,
+                        "price": {
+                            "amount": "1076"
+                        },
+                        "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ=="
+                    }
+                },
+                "priceAlertExists": null,
+                "existingPriceAlert": null,
+                "searchFingerprint": "eyJwYXJhbXMiOnsiZmlsdGVyIjp7ImFsbG93Q2hhbmdlSW5ib3VuZERlc3RpbmF0aW9uIjp0cnVlLCJhbGxvd0NoYW5nZUluYm91bmRTb3VyY2UiOnRydWUsImFsbG93T3Zlcm5pZ2h0U3RvcG92ZXIiOnRydWUsImFsbG93RGlmZmVyZW50U3RhdGlvbkNvbm5lY3Rpb24iOnRydWUsImNvbnRlbnRQcm92aWRlcnMiOlsiS0lXSSJdLCJmbGlnaHRzQXBpTGltaXQiOjI1LCJsaW1pdCI6MzAsIm1heFN0b3BzQ291bnQiOjAsInByaWNlIjp7InN0YXJ0IjoxMDc2LCJlbmQiOjEwODV9LCJzaG93Tm9DaGVja2VkQmFncyI6dHJ1ZSwidHJhbnNwb3J0VHlwZXMiOlsiRkxJR0hUIl0sImVuYWJsZUZyb21Ub0xvY2F0aW9uSW5WaWEiOmZhbHNlLCJlbmFibGVTZWxmVHJhbnNmZXIiOnRydWUsImVuYWJsZVRydWVIaWRkZW5DaXR5Ijp0cnVlLCJlbmFibGVUaHJvd0F3YXlUaWNrZXRpbmciOnRydWUsImV4Y2x1ZGVUSENJblNlYXJjaFJlc3VsdHMiOmZhbHNlLCJhbGxvd1JldHVybkZyb21EaWZmZXJlbnRDaXR5Ijp0cnVlfSwib3B0aW9ucyI6eyJjdXJyZW5jeSI6ImV1ciIsInBhcnRuZXIiOiJza3lwaWNrZXIiLCJwYXJ0bmVyTWFya2V0IjoiZW4iLCJhZmZpbElEIjoiYWNxdWlzaXRpb24wMDBicmFuZDAwMHNlbSIsImxvY2FsZSI6ImVuIiwiZXhhY3RUcmF2ZWxUaXBzIjpmYWxzZSwiYWJUZXN0SW5wdXQiOnsia2F5YWtBQkNUZXN0IjoiUkVNT1ZFX0tBWUFLX0NPTVBMRVRFTFkiLCJhcHBseVJlY29tbWVuZGVkRGVzdGluYXRpb25zU29ydGluZyI6ZmFsc2V9LCJ1c2VQcmVjYWNoZWQiOmZhbHNlLCJzb3J0QnkiOiJRVUFMSVRZIiwibWVyZ2VQcmljZURpZmZSdWxlIjoiSU5DUkVBU0VEIiwiZmFzdEZpbHRlcnMiOmZhbHNlLCJzZWFyY2hTdHJhdGVneSI6IlJFRFVDRUQiLCJmZWF0dXJlTmFtZSI6IlNlYXJjaFJldHVybkl0aW5lcmFyaWVzUXVlcnkifSwic2VhcmNoIjp7InBhc3NlbmdlcnMiOnsiYWR1bHRzSG9sZEJhZ3MiOlswXSwiYWR1bHRzSGFuZEJhZ3MiOlswXSwiY2hpbGRyZW5Ib2xkQmFncyI6WzBdLCJjaGlsZHJlbkhhbmRCYWdzIjpbMF0sImFkdWx0cyI6MSwiY2hpbGRyZW4iOjEsImluZmFudHMiOjB9LCJjYWJpbkNsYXNzIjp7ImNhYmluQ2xhc3MiOiJFQ09OT01ZIiwiYXBwbHlNaXhlZENsYXNzZXMiOnRydWV9LCJpdGluZXJhcnkiOnsic291cmNlIjp7ImlkcyI6WyJuZXcteW9yay1jaXR5X255X3VzIl19LCJkZXN0aW5hdGlvbiI6eyJpZHMiOlsicGhpbGFkZWxwaGlhX3BhX3VzIl19LCJvdXRib3VuZERlcGFydHVyZURhdGUiOnsic3RhcnQiOiIyMDIzLTEwLTE3VDAwOjAwOjAwIiwiZW5kIjoiMjAyMy0xMC0xN1QyMzo1OTo1OSJ9LCJpbmJvdW5kRGVwYXJ0dXJlRGF0ZSI6eyJzdGFydCI6IjIwMjMtMTAtMTlUMDA6MDA6MDAiLCJlbmQiOiIyMDIzLTEwLTE5VDIzOjU5OjU5In19fX0sInNlYXJjaF90eXBlIjoiUkVUVVJOX0lUSU5FUkFSSUVTIiwic2VhcmNoX2lkIjoiNWYxMzdkYTFmOTdiIiwiY3JlYXRlZF9hdCI6MTY5Njk2MDMyNSwidmVyc2lvbiI6MX0=",
+                "hasMorePending": false,
+                "priceAlertsTopResults": {
+                    "best": {
+                        "price": {
+                            "amount": "1076"
+                        }
+                    },
+                    "cheapest": {
+                        "price": {
+                            "amount": "1076"
+                        }
+                    },
+                    "fastest": {
+                        "price": {
+                            "amount": "1076"
+                        }
+                    },
+                    "sourceTakeoffAsc": {
+                        "price": {
+                            "amount": "1076"
+                        }
+                    },
+                    "destinationLandingAsc": {
+                        "price": {
+                            "amount": "1076"
+                        }
+                    }
+                },
+                "itinerariesCount": 4,
+                "missingProviders": [],
+                "statusPerProvider": [
+                    {
+                        "provider": {
+                            "id": "ContentProvider:KIWI"
+                        },
+                        "errorHappened": false,
+                        "errorMessage": null
+                    }
+                ],
+                "topFiveOriginalItinerariesContainTHC": false,
+                "hasTier1MarketItineraries": false,
+                "sharedItinerary": null,
+                "kayakEligibilityTest": {
+                    "containsKayakWithNewRules": false,
+                    "containsKayakWithCurrentRules": false
+                }
+            },
+            "itineraries": [
+                {
+                    "__typename": "ItineraryReturn",
+                    "__isItinerary": "ItineraryReturn",
+                    "id": "ItineraryReturn:eyJwcm92aWRlcnMiOiJLSVdJIiwicm91dGVfZGF0YSI6IlVBOjM2ODY6RVdSOjE2OTc1NTc1MDA6UEhMOjE2OTc1NjEyMjA6ZWNvbm9teTpGYWxzZTo6OkVXUnxVQTozNTE4OlBITDoxNjk3NzA5NjAwOkVXUjoxNjk3NzEzNTAwOmVjb25vbXk6RmFsc2U6OjpQSEwiLCJwcmljZSI6IjEwNzYifQ==",
+                    "shareId": "eyJyIjoiVUE6MzY4NjpFV1I6MTY5NzU1NzUwMDpQSEw6MTY5NzU2MTIyMDplY29ub215OkZhbHNlOjo6RVdSfFVBOjM1MTg6UEhMOjE2OTc3MDk2MDA6RVdSOjE2OTc3MTM1MDA6ZWNvbm9teTpGYWxzZTo6OlBITCIsImkiOlsiMWNkYjIzMWY0Y2JmNGNkZDJmODMyNTM0XzAiLCIyMzFmMWNkYjRjYzE0Y2VmYTkzYzA3ZDBfMCJdLCJ0aGMiOjAsInRhdCI6MSwidmkiOjAsInQiOiJSVCJ9",
+                    "price": {
+                        "amount": "10700000",
+                        "priceBeforeDiscount": "1076"
+                    },
+                    "priceEur": {
+                        "amount": "10700000"
+                    },
+                    "provider": {
+                        "name": "Kiwi.com",
+                        "code": "KIWI",
+                        "hasHighProbabilityOfPriceChange": false,
+                        "contentProvider": {
+                            "code": "KIWI"
+                        },
+                        "id": "ItineraryProvider:KIWI"
+                    },
+                    "bagsInfo": {
+                        "includedCheckedBags": 0,
+                        "includedHandBags": 0,
+                        "hasNoBaggageSupported": false,
+                        "hasNoCheckedBaggage": false,
+                        "checkedBagTiers": [
+                            {
+                                "tierPrice": {
+                                    "amount": "171.73"
+                                },
+                                "bags": [
+                                    {
+                                        "weight": {
+                                            "value": 23
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "tierPrice": {
+                                    "amount": "392.548"
+                                },
+                                "bags": [
+                                    {
+                                        "weight": {
+                                            "value": 23
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "handBagTiers": [],
+                        "includedPersonalItem": 2,
+                        "personalItemTiers": [
+                            {
+                                "tierPrice": {
+                                    "amount": "0"
+                                },
+                                "bags": [
+                                    {
+                                        "weight": {
+                                            "value": 5
+                                        },
+                                        "height": {
+                                            "value": 25
+                                        },
+                                        "width": {
+                                            "value": 22
+                                        },
+                                        "length": {
+                                            "value": 43
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "bookingOptions": {
+                        "edges": [
+                            {
+                                "node": {
+                                    "token": "Gv6_dU-_puhyupdKcoxWHdFVwToeJ-GrxQF8lTNwK4cZdLZVP0ypye1JMRIudNKCF2M0WdSIN6pmjgzxgiA5I-fG-oMSFW0aokC-ALe0yRZodgxRO563-fortq35qjshHJnwgol7jL5UGVF5cq0tGOopmdm65SIXjLv1fhyxs3MkyrPWJZCUfFqjKLOO9uefUp41NaBcwOUiNgvVBX3Kk6MfqInxH6GtvWsNwKMki9Sj43TnxD-Etzx4_NmgWxm5afLFxe83KBgQ2euzvs7PIi9w6GQEiFYFtp69uDrmdt55DrO4NGgVh7QxpuF00Vv7Oq39aWcqufwR1pprg8218qGkBlhIYj2Ljng8rrQkVS7BmCjbmScIhich1OfKbn7zjRrFCOQhpgYGgd3XmtFqD4jwpkfDhzuUNpUwaRkcjUhA8J3WUMLXBrKeUjUyIetzA5xa138Cu9PwSdfI1X8FsjLtkiE15-P54lAG_tO-IckosCXcdm2oRpmA35gj-v3qwOY6tEzdR9oonCsJ280aPB7xTsp8hBsu08MurY8YyC87Hq8U7Gr1w94TvYSk0ahwB",
+                                    "bookingUrl": "/en/booking?direct=true&locale=en&currency=eur&passengers=1-1-0&token=Gv6_dU-_puhyupdKcoxWHdFVwToeJ-GrxQF8lTNwK4cZdLZVP0ypye1JMRIudNKCF2M0WdSIN6pmjgzxgiA5I-fG-oMSFW0aokC-ALe0yRZodgxRO563-fortq35qjshHJnwgol7jL5UGVF5cq0tGOopmdm65SIXjLv1fhyxs3MkyrPWJZCUfFqjKLOO9uefUp41NaBcwOUiNgvVBX3Kk6MfqInxH6GtvWsNwKMki9Sj43TnxD-Etzx4_NmgWxm5afLFxe83KBgQ2euzvs7PIi9w6GQEiFYFtp69uDrmdt55DrO4NGgVh7QxpuF00Vv7Oq39aWcqufwR1pprg8218qGkBlhIYj2Ljng8rrQkVS7BmCjbmScIhich1OfKbn7zjRrFCOQhpgYGgd3XmtFqD4jwpkfDhzuUNpUwaRkcjUhA8J3WUMLXBrKeUjUyIetzA5xa138Cu9PwSdfI1X8FsjLtkiE15-P54lAG_tO-IckosCXcdm2oRpmA35gj-v3qwOY6tEzdR9oonCsJ280aPB7xTsp8hBsu08MurY8YyC87Hq8U7Gr1w94TvYSk0ahwB&searchType=return&searchBags=0.0-0.0",
+                                    "trackingPixel": "https://www.kiwi.com/pixel?affilid=acquisition000brand000sem&currency=EUR&flightsId=1cdb231f4cbf4cdd2f832534_0%7C231f1cdb4cc14cefa93c07d0_0%7C1cdb231f4cbf4cdd2f832534_1%7C231f1cdb4cc14cefa93c07d0_1&from=EWR&lang=en&passengers=2&searchBags=0.0-0.0&to=PHL&booking_token=Gv6_dU-_puhyupdKcoxWHdFVwToeJ-GrxQF8lTNwK4cZdLZVP0ypye1JMRIudNKCF2M0WdSIN6pmjgzxgiA5I-fG-oMSFW0aokC-ALe0yRZodgxRO563-fortq35qjshHJnwgol7jL5UGVF5cq0tGOopmdm65SIXjLv1fhyxs3MkyrPWJZCUfFqjKLOO9uefUp41NaBcwOUiNgvVBX3Kk6MfqInxH6GtvWsNwKMki9Sj43TnxD-Etzx4_NmgWxm5afLFxe83KBgQ2euzvs7PIi9w6GQEiFYFtp69uDrmdt55DrO4NGgVh7QxpuF00Vv7Oq39aWcqufwR1pprg8218qGkBlhIYj2Ljng8rrQkVS7BmCjbmScIhich1OfKbn7zjRrFCOQhpgYGgd3XmtFqD4jwpkfDhzuUNpUwaRkcjUhA8J3WUMLXBrKeUjUyIetzA5xa138Cu9PwSdfI1X8FsjLtkiE15-P54lAG_tO-IckosCXcdm2oRpmA35gj-v3qwOY6tEzdR9oonCsJ280aPB7xTsp8hBsu08MurY8YyC87Hq8U7Gr1w94TvYSk0ahwB",
+                                    "itineraryProvider": {
+                                        "code": "KIWI",
+                                        "name": "Kiwi.com",
+                                        "subprovider": null,
+                                        "hasHighProbabilityOfPriceChange": false,
+                                        "contentProvider": {
+                                            "code": "KIWI"
+                                        },
+                                        "id": "ItineraryProvider:KIWI"
+                                    },
+                                    "price": {
+                                        "amount": "1076"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "travelHack": {
+                        "isTrueHiddenCity": false,
+                        "isVirtualInterlining": false,
+                        "isThrowawayTicket": true
+                    },
+                    "legacyId": "1cdb231f4cbf4cdd2f832534_0-231f1cdb4cc14cefa93c07d0_0",
+                    "outbound": {
+                        "id": "Sector:42396a58106e563b5a2f775c2594f1df461b295e~42396a58106e563b5a2f775c2594f1df461b295e",
+                        "sectorSegments": [
+                            {
+                                "guarantee": null,
+                                "segment": {
+                                    "id": "Segment:42396a58106e563b5a2f775c2594f1df461b295e",
+                                    "source": {
+                                        "localTime": "2023-10-17T11:45:00",
+                                        "utcTime": "2023-10-17T15:45:00",
+                                        "station": {
+                                            "id": "Station:airport:EWR",
+                                            "legacyId": "EWR",
+                                            "name": "Krompachy international airport",
+                                            "code": "EWR",
+                                            "type": "AIRPORT",
+                                            "gps": {
+                                                "lat": 40.6925,
+                                                "lng": -74.168611
+                                            },
+                                            "city": {
+                                                "legacyId": "new-york-city_ny_us",
+                                                "name": "Krompachy",
+                                                "id": "City:new-york-city_ny_us"
+                                            },
+                                            "country": {
+                                                "code": "US",
+                                                "id": "Country:US"
+                                            }
+                                        }
+                                    },
+                                    "destination": {
+                                        "localTime": "2023-10-17T12:47:00",
+                                        "utcTime": "2023-10-17T16:47:00",
+                                        "station": {
+                                            "id": "Station:airport:PHL",
+                                            "legacyId": "PHL",
+                                            "name": "Popudinské močidlany",
+                                            "code": "POP",
+                                            "type": "AIRPORT",
+                                            "gps": {
+                                                "lat": 39.8719444,
+                                                "lng": -75.241111
+                                            },
+                                            "city": {
+                                                "legacyId": "philadelphia_pa_us",
+                                                "name": "Popudinské močidlany",
+                                                "id": "City:philadelphia_pa_us"
+                                            },
+                                            "country": {
+                                                "code": "SVK",
+                                                "id": "Country:SVK"
+                                            }
+                                        }
+                                    },
+                                    "duration": 3720,
+                                    "type": "FLIGHT",
+                                    "code": "3686",
+                                    "carrier": {
+                                        "id": "Carrier:601",
+                                        "name": "United Airlines",
+                                        "code": "UA"
+                                    },
+                                    "operatingCarrier": {
+                                        "id": "Carrier:601",
+                                        "name": "United Airlines",
+                                        "code": "UA"
+                                    },
+                                    "cabinClass": "ECONOMY",
+                                    "hiddenDestination": null,
+                                    "throwawayDestination": {
+                                        "id": "Station:airport:EWR"
+                                    }
+                                },
+                                "layover": null
+                            }
+                        ],
+                        "duration": 3720
+                    },
+                    "inbound": {
+                        "id": "Sector:8170c2ed5081db083841f5b54c80950cb7dbd4a2~8170c2ed5081db083841f5b54c80950cb7dbd4a2",
+                        "sectorSegments": [
+                            {
+                                "guarantee": null,
+                                "segment": {
+                                    "id": "Segment:8170c2ed5081db083841f5b54c80950cb7dbd4a2",
+                                    "source": {
+                                        "localTime": "2023-10-19T06:00:00",
+                                        "utcTime": "2023-10-19T10:00:00",
+                                        "station": {
+                                            "id": "Station:airport:PHL",
+                                            "legacyId": "PHL",
+                                            "name": "Popudinské močidlany",
+                                            "code": "POP",
+                                            "type": "AIRPORT",
+                                            "gps": {
+                                                "lat": 39.8719444,
+                                                "lng": -75.241111
+                                            },
+                                            "city": {
+                                                "legacyId": "pop",
+                                                "name": "Popudinské močidlany",
+                                                "id": "City:pop"
+                                            },
+                                            "country": {
+                                                "code": "SVK",
+                                                "id": "Country:SVK"
+                                            }
+                                        }
+                                    },
+                                    "destination": {
+                                        "localTime": "2023-10-19T07:05:00",
+                                        "utcTime": "2023-10-19T11:05:00",
+                                        "station": {
+                                            "id": "Station:airport:EWR",
+                                            "legacyId": "EWR",
+                                            "name": "Krompachy",
+                                            "code": "KROM",
+                                            "type": "AIRPORT",
+                                            "gps": {
+                                                "lat": 40.6925,
+                                                "lng": -74.168611
+                                            },
+                                            "city": {
+                                                "legacyId": "new-york-city_ny_us",
+                                                "name": "Popudinské močidlany",
+                                                "id": "City:new-york-city_ny_us"
+                                            },
+                                            "country": {
+                                                "code": "US",
+                                                "id": "Country:US"
+                                            }
+                                        }
+                                    },
+                                    "duration": 3900,
+                                    "type": "FLIGHT",
+                                    "code": "3518",
+                                    "carrier": {
+                                        "id": "Carrier:601",
+                                        "name": "United Airlines",
+                                        "code": "UA"
+                                    },
+                                    "operatingCarrier": {
+                                        "id": "Carrier:601",
+                                        "name": "United Airlines",
+                                        "code": "UA"
+                                    },
+                                    "cabinClass": "ECONOMY",
+                                    "hiddenDestination": null,
+                                    "throwawayDestination": {
+                                        "id": "Station:airport:PHL"
+                                    }
+                                },
+                                "layover": null
+                            }
+                        ],
+                        "duration": 3900
+                    },
+                    "stopover": {
+                        "nightsCount": 200,
+                        "arrival": {
+                            "type": "AIRPORT",
+                            "city": {
+                                "name": "Philadelphia",
+                                "id": "City:philadelphia_pa_us"
+                            },
+                            "id": "Station:airport:PHL"
+                        },
+                        "departure": {
+                            "type": "AIRPORT",
+                            "id": "Station:airport:PHL"
+                        },
+                        "duration": 2473
+                    },
+                    "lastAvailable": {
+                        "seatsLeft": 8
+                    },
+                    "extendedFareOptionsPricing": {
+                        "standardFarePrice": {
+                            "amount": "1431.0800000000002"
+                        },
+                        "flexiFarePrice": {
+                            "amount": "1667.8"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

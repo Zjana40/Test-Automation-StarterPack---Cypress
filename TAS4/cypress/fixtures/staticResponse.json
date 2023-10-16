@@ -1,0 +1,9 @@
+{
+    "exists": false,
+    "passwordless": false,
+    "verified": false,
+    "social": {
+        "facebook": false,
+        "google": false
+    }
+}

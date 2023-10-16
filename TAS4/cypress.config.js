@@ -6,7 +6,7 @@ module.exports = defineConfig({
     runMode: 1,
   },
   e2e: {
-    baseUrl : "https://furbo.sk/waw",
+    baseUrl : "https://kiwi.com/en",
     viewportWidth: 1600,
     viewportHeight: 1200,
     setupNodeEvents(on, config) {

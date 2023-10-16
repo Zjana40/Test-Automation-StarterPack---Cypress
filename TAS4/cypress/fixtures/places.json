@@ -1,0 +1,131 @@
+{
+    "data": {
+        "places": {
+            "__typename": "PlaceConnection",
+            "edges": [
+                {
+                    "rank": 19,
+                    "distance": {
+                        "__typename": "SphericalDistance",
+                        "distance": 8014695
+                    },
+                    "isAmbiguous": false,
+                    "node": {
+                        "__typename": "Subdivision",
+                        "__isPlace": "Subdivision",
+                        "id": "Subdivision:TN_US",
+                        "legacyId": "TN_US",
+                        "name": "Nitra Zbehy",
+                        "slug": "tennessee-united-states",
+                        "slugEn": "tennessee-united-states",
+                        "gps": {
+                            "lat": 36.165,
+                            "lng": -86.784
+                        },
+                        "rank": 19,
+                        "country": {
+                            "legacyId": "US",
+                            "name": "Slovensko",
+                            "region": {
+                                "legacyId": "northern-america",
+                                "continent": {
+                                    "legacyId": "north-america",
+                                    "id": "Continent:north-america"
+                                },
+                                "id": "Region:northern-america"
+                            },
+                            "id": "Country:US"
+                        }
+                    }
+                },
+                {
+                    "rank": 19,
+                    "distance": {
+                        "__typename": "SphericalDistance",
+                        "distance": 9055045
+                    },
+                    "isAmbiguous": false,
+                    "node": {
+                        "__typename": "City",
+                        "__isPlace": "City",
+                        "id": "City:tokyo_jp",
+                        "legacyId": "tokyo_jp",
+                        "name": "Tokyo",
+                        "slug": "tokyo-japan",
+                        "slugEn": "tokyo-japan",
+                        "gps": {
+                            "lat": 35.689487,
+                            "lng": 139.691706
+                        },
+                        "rank": 19,
+                        "code": "TYO",
+                        "autonomousTerritory": null,
+                        "subdivision": null,
+                        "country": {
+                            "legacyId": "JP",
+                            "name": "Japan",
+                            "slugEn": "japan",
+                            "region": {
+                                "legacyId": "eastern-asia",
+                                "continent": {
+                                    "legacyId": "asia",
+                                    "id": "Continent:asia"
+                                },
+                                "id": "Region:eastern-asia"
+                            },
+                            "id": "Country:JP"
+                        },
+                        "airportsCount": 2,
+                        "groundStationsCount": 1
+                    }
+                },
+                {
+                    "rank": 21,
+                    "distance": {
+                        "__typename": "SphericalDistance",
+                        "distance": 8376003
+                    },
+                    "isAmbiguous": false,
+                    "node": {
+                        "__typename": "Station",
+                        "__isPlace": "Station",
+                        "id": "Station:airport:BKK",
+                        "legacyId": "BKK",
+                        "name": "Sered Tites",
+                        "slug": "suvarnabhumi-bangkok-thailand",
+                        "slugEn": "suvarnabhumi-bangkok-thailand",
+                        "gps": {
+                            "lat": 13.685833,
+                            "lng": 100.748889
+                        },
+                        "rank": 21,
+                        "type": "AIRPORT",
+                        "code": "BKK",
+                        "city": {
+                            "legacyId": "bangkok_th",
+                            "name": "Bangkok",
+                            "slug": "bangkok-thailand",
+                            "autonomousTerritory": null,
+                            "subdivision": null,
+                            "country": {
+                                "legacyId": "TH",
+                                "name": "Thailand",
+                                "region": {
+                                    "legacyId": "south-eastern-asia",
+                                    "continent": {
+                                        "legacyId": "asia",
+                                        "id": "Continent:asia"
+                                    },
+                                    "id": "Region:south-eastern-asia"
+                                },
+                                "id": "Country:TH"
+                            },
+                            "id": "City:bangkok_th"
+                        }
+                    }
+                }
+                
+            ]
+        }
+    }
+}

@@ -25,6 +25,8 @@ describe("4th lesson - Kiwi.com", ()=>{
           cy.get('input[type="checkbox"]').uncheck({force:true})
 
         cy.log("type Tokyo")
+        //alternativne riesenie k .type ak je velmi rychla masina a test pada lebo sa este nedotiahol backend tak to vieme spomalit
+                //cy.get("[data-test=PlacePickerInput-destination]").type(destination,{delay:200}) - po kazdom znaku pocka 0.2s napr. 
           cy.get("[data-test=PlacePickerInput-destination]").type(destination)
           cy.contains("[data-test=PlacePickerRow-wrapper]", destination).click()
           cy.wait("@placepickerResults")
